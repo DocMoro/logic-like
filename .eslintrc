@@ -20,8 +20,11 @@
       }
     }
   },
+  "plugins": ["react", "simple-import-sort"],
   "rules": {
     "prettier/prettier": ["warn", { "endOfLine": "auto" }],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
     "no-unused-vars": [
       "error",
       {
